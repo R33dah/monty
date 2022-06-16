@@ -87,3 +87,5 @@ void free_dlistint(stack_t *head)
 		head = head->next;
 		free(tmp);
 	}
+
+}
