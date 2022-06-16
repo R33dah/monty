@@ -133,4 +133,3 @@ void _swap(stack_t **doubly, unsigned int cline)
 	aux->prev = *doubly;
 	(*doubly)->next = aux;
 	(*doubly)->prev = NULL;
-}
